@@ -1,0 +1,17 @@
+page {
+  font-family: "微软雅黑";
+  background: #f5f5f5;
+  padding-bottom: 150rpx;
+  width:100%;overflow-x: hidden;
+}
+.form{background: #fff;margin-top:50rpx;}
+.payli{border-bottom:1px solid #e8e8e8;height:90rpx;line-height:90rpx;padding:0 20rpx;overflow-x: hidden;}
+.paylable{width:150rpx;float:left;font-size:30rpx;color:#4a4a4a}
+.payinput{float:left;height:80rpx;font-size:30rpx;color:#4a4a4a;font-family: "微软雅黑";line-height:80rpx;}
+.textarea{float:left;height:auto;min-height:150rpx;padding:0;font-size:30rpx;color:#4a4a4a;font-family: "微软雅黑";}
+.textarea0{float:left;height:auto;min-height:120rpx;font-size:30rpx;padding:0;color:#4a4a4a;font-family: "微软雅黑";}
+.payli0{padding:8rpx 20rpx;border-bottom:1px solid #e8e8e8;background:#fff;font-size:30rpx;font-family: "微软雅黑";color:#4a4a4a}
+.formbot{padding:0 20rpx;margin-top:50rpx;}
+.delect{width:45%;background: #a4a4a4;text-align: center;font-size:30rpx;color:#fff;height:100rpx;line-height: 100rpx;float:left}
+.submit{width:45%;background: #f38815;text-align: center;font-size:30rpx;color:#fff;height:100rpx;line-height: 100rpx;float:right}
+.paylable0{width:150rpx;padding-top:12rpx;float:left;font-size:30rpx;color:#4a4a4a}

@@ -1,0 +1,71 @@
+
+<!--订单头-->
+<view class="detailtop">
+  <view class="detailtoppic">
+    <image src="/imgs/index/good.jpg"></image>
+  </view>
+  <view class="detailtoptit">DQ(上海七宝嘉茂店)
+  </view>
+  <view class="detailtopstate">订单已完成
+  </view>
+</view>
+
+<!--清单-->
+<view class="detaillist">
+  <view class="table">
+    <view class="tr">
+      <view class="td" class="ordername">超享至尊披萨6寸/盘</view>
+      <view class="td" class="ordernum">×2</view>
+      <view class="td" class="orderprice">￥48</view>
+    </view>
+    <view class="tr">
+      <view class="td" class="ordername">超享至尊披萨6寸/盘</view>
+      <view class="td" class="ordernum">×2</view>
+      <view class="td" class="orderprice">￥48</view>
+    </view>
+    <view class="tr">
+      <view class="td" class="ordername">超享至尊披萨6寸/盘</view>
+      <view class="td" class="ordernum">×2</view>
+      <view class="td" class="orderprice">￥48</view>
+    </view>
+    <view class="trbom">
+      <view class="tdbomtit"> 满减活动</view>
+      <view class="tdbomprice">-￥10</view>
+    </view>
+  </view>
+  <view class="tabletotal">
+    实付 ￥106
+  </view>
+</view>
+
+<!--配送信息-->
+<view class="detailinfo">
+  <view class="detailtit">
+    配送信息
+  </view>
+  <view class="detailtxt">
+    <view class="detailtit0">收货地址：王海龙 先生</view>
+    <view class="detailtit0">　　　　　15735945124</view>
+    <view class="detailtit0">　　　　　上海市普陀区真北路1549弄45号</view>
+  </view>
+  
+  <view class="detailtxt">
+    物流单号：145 455 1221（顺丰快递）
+  </view>
+</view>
+
+<!--订单信息-->
+<view class="detailinfo">
+  <view class="detailtit">
+    订单信息
+  </view>
+  <view class="detailtxt">
+    订单号：1212 1212 2222 21212
+  </view>
+  <view class="detailtxt">
+    支付方式：在线支付
+  </view>
+  <view class="detailtxt">
+    下单时间：2017年01月10日 11:23
+  </view>
+</view>

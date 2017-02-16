@@ -1,0 +1,76 @@
+ <!--goodslist start-->
+  <view class="shop">
+    <view class="goods" wx:for="{{goods}}" wx:for-item="i" wx:for-index="id" data-id="{{i.id-1}}" wx:key="id">
+      <view class="goodsbox">
+        <image src="{{goods[id].pic}}" data-id="{{i.id-1}}" bindtap="showGoodsDetail"></image>
+        <view class="title1">￥{{goods[id].price}}</view>
+        <view class="title2">{{goods[id].name}}</view>
+        <view class="title3 addCart" bindtap="tapAddCart" data-id="{{id}}">选择</view>
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+
+  <!--goodsdetail start-->
+  <view class="goods-detail" hidden="{{!showGoodsDetail}}">
+    <view class="mask" bindtap="hideGoodsDetail"></view>
+    <view class="goodsdetail">
+      <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+        <swiper-item>
+          <image src="/imgs/index/gooddetail.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/imgs/index/gooddetail.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/imgs/index/gooddetail.jpg"></image>
+        </swiper-item>
+      </swiper>
+      <view class="title1">{{goods[id].name}}</view>
+      <view class="title2">法国大使馆的反馈给对方考虑更放得开了给你看</view>
+      <view class="title3">推荐星级：
+        <image src="/imgs/shop/star.jpg"></image>
+        <image src="/imgs/shop/star.jpg"></image>
+      </view>
+      <view class="title4">
+        <view class="title5">¥{{goods[id].price}}</view>
+        <view class="title6" bindtap="tapAddCart" data-id="{{id}}">加入购物车</view>
+      </view>
+    </view>
+  </view>
+
+  <!--goodscart start-->
+  <view class="cart-detail" hidden="{{!showCartDetail||!cart.count}}">
+    <view class="mask" bindtap="hideCartDetail"></view>
+    <view class="list">
+      <view class="carttit">
+        <view class="carttit0">购物车</view>
+        <view class="cartempty"><image src="/imgs/index/del.jpg" class="cartimg"></image>清空</view>
+      </view>
+      <view class="carttxt">
+        <view class="carttxt0">满减</view>
+        <view class="carttxt1">订单满100m免运费\配送费</view>
+      </view>
+      <view class="item" wx:for="{{cart.list}}" wx:for-index="id" wx:for-item="num" wx:key="id">
+        <view class="name ellipsis">{{goods[id].name}}</view>
+        <view class="total">￥{{goods[id].price*cart.list[id]}}</view>
+        <view class="reduce" data-id="{{id}}" bindtap="tapReduceCart">-</view>
+        <view class="num">{{cart.list[id]}}</view>
+        <view class="add" data-id="{{id}}" bindtap="tapAddCart">+</view>
+      </view>
+    </view>
+  </view>
+  <view class="cart">
+    <view class="data" bindtap="showCartDetail">
+      <view class="icon">
+        <image src="/imgs/shop/cart.png"></image>
+        <view class="count">{{cart.count}}</view>
+      </view>
+      <view class="total">￥{{cart.total}}</view>
+    </view>
+    <form bindsubmit="submit" report-submit="true">
+      <button class="{{cart.count?'':'disabled'}}" formType="submit" disabled="{{!cart.count}}" bindtap="pay">
+        结算
+      </button>
+    </form>
+  </view>

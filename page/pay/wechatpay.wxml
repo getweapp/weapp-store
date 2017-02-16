@@ -1,0 +1,46 @@
+<view class="address">
+  <view class="location">
+    <view class="lotit">王大锤　　15745784854</view>
+    <view class="lotxt">上海七宝七宝宝龙城50号854室</view>
+  </view>
+  <view class="locationL">
+  </view>
+</view>
+<view class="paytype">
+  支付方式：在线支a付
+</view>
+<view class="detaillist">
+  <view class="table">
+    <view class="tr">
+      <view class="td" class="ordername">超享至尊披萨6寸/盘</view>
+      <view class="td" class="ordernum">×2</view>
+      <view class="td" class="orderprice">￥48</view>
+    </view>
+    <view class="tr">
+      <view class="td" class="ordername">超享至尊披萨6寸/盘</view>
+      <view class="td" class="ordernum">×2</view>
+      <view class="td" class="orderprice">￥48</view>
+    </view>
+    <view class="tr">
+      <view class="td" class="ordername">超享至尊披萨6寸/盘</view>
+      <view class="td" class="ordernum">×2</view>
+      <view class="td" class="orderprice">￥48</view>
+    </view>
+    <view class="trbom">
+      <view class="tdbomtit"> 满减活动</view>
+      <view class="tdbomprice">-￥10</view>
+    </view>
+  </view>
+  <view class="tabletotal0">
+    <view class="tabletotal1">订单￥116</view>
+    <view class="tabletotal2">优惠￥10</view>
+    <view class="tabletotal3">待支付 ￥106</view>
+  </view>
+</view>
+<view class="paybom">
+  <view class="paybom1">待支付￥106 </view>
+  <view class="paybom2">| 优惠 ￥10</view>
+  <button class="paybtn">
+    支付
+  </button>
+</view>

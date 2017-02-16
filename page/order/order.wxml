@@ -1,0 +1,99 @@
+<!--订单列表-->
+<view class="orderlist">
+  <view class="orderli">
+    <navigator url="../detail/detail">
+      <view class="orderlitop">
+        <view class="orderlileft">
+          <view class="orderlitit1">7寸缤纷水果披萨等3件商品</view>
+          <view class="orderlitit2">2017年01月10日 16:15</view>
+        </view>
+        <view class="orderliright">
+          ¥75
+        </view>
+        <view class="orderlibottom">
+          订单已完成 >
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="orderli">
+    <navigator url="../detail/detail">
+      <view class="orderlitop">
+        <view class="orderlileft">
+          <view class="orderlitit1">7寸缤纷水果披萨等3件商品</view>
+          <view class="orderlitit2">2017年01月10日 16:15</view>
+        </view>
+        <view class="orderliright">
+          ¥75
+        </view>
+        <view class="orderlibottom">
+          订单已完成 >
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="orderli">
+    <navigator url="../detail/detail">
+      <view class="orderlitop">
+        <view class="orderlileft">
+          <view class="orderlitit1">7寸缤纷水果披萨等3件商品</view>
+          <view class="orderlitit2">2017年01月10日 16:15</view>
+        </view>
+        <view class="orderliright">
+          ¥75
+        </view>
+        <view class="orderlibottom">
+          订单已完成 >
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="orderli">
+    <navigator url="../detail/detail">
+      <view class="orderlitop">
+        <view class="orderlileft">
+          <view class="orderlitit1">7寸缤纷水果披萨等3件商品</view>
+          <view class="orderlitit2">2017年01月10日 16:15</view>
+        </view>
+        <view class="orderliright">
+          ¥75
+        </view>
+        <view class="orderlibottom">
+          订单已完成 >
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="orderli">
+    <navigator url="../detail/detail">
+      <view class="orderlitop">
+        <view class="orderlileft">
+          <view class="orderlitit1">7寸缤纷水果披萨等3件商品</view>
+          <view class="orderlitit2">2017年01月10日 16:15</view>
+        </view>
+        <view class="orderliright">
+          ¥75
+        </view>
+        <view class="orderlibottom">
+          订单已完成 >
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="orderli">
+    <navigator url="../detail/detail">
+      <view class="orderlitop">
+        <view class="orderlileft">
+          <view class="orderlitit1">7寸缤纷水果披萨等3件商品</view>
+          <view class="orderlitit2">2017年01月10日 16:15</view>
+        </view>
+        <view class="orderliright">
+          ¥75
+        </view>
+        <view class="orderlibottom">
+          订单已完成 >
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

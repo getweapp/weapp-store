@@ -1,0 +1,42 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="form">
+
+    <!--联系人-->
+    <view class="payli">
+      <view class="paylable">联系人</view>
+      <view>
+        <input name="input" type="text" class="payinput" placeholder="" />
+      </view>
+    </view>
+
+    <!--联系电话-->
+    <view class="payli">
+      <view class="paylable">联系电话</view>
+      <view>
+        <input name="input" type="tel" class="payinput" placeholder="" />
+      </view>
+    </view>
+
+    <!--详细地址-->
+    <view class="payli0">
+      <view class="paylable0">联系地址</view>
+      <view>
+        <textarea class="textarea"></textarea>
+      </view>
+      <view class="clear"></view>
+    </view>
+
+    <!--备注-->
+    <view class="payli0">
+      <view class="paylable0">备注</view>
+      <view>
+        <textarea class="textarea0"></textarea>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <view class="formbot">
+    <view class="delect">删除</view>
+    <view class="submit" bindtap="pay">确定</view>
+  </view>
+</form>

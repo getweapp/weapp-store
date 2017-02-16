@@ -1,0 +1,25 @@
+page{font-family: "微软雅黑"}
+.container{height: 100%;}
+scroll-view{height: 100%;}
+.clear{clear:both;}
+.header{position: fixed;display: -webkit-flex;left: 0;top: 0;width: 100%;padding: 0;box-sizing: border-box;z-index: 1;background: #fff;height: 80rpx;line-height: 80rpx;}
+.header{display: -webkit-flex;position: fixed;display: -webkit-flex;left: 0;top: 0;width: 100%;padding: 0;box-sizing: border-box;z-index: 1;background: #fff;height: 80rpx;line-height: 80rpx;}
+.header .filter{width:50%;text-align: center;color:#3c3c3c;font-size: 30rpx;}
+.header .right{color:#f38815;border-bottom:1px solid #f38815}
+.shop{position:relative;top:70rpx;padding: 10rpx 0;margin-bottom:200rpx;}
+.shop .goods{width: 50%;float:left;text-align: center;}
+.shop .goods .goodsbox{background:#fff;width:90%;margin:0 auto;height:400rpx;position:relative;margin-top:30rpx;box-shadow:0 0 5px #eee;}
+.shop .goods image{width: 100%;height:250rpx;}
+.shop .goods .title1{color:#3c3c3c;font-size: 24rpx;height:100rpx;width:100rpx;line-height:65rpx;background:#fff;border-radius:50%;text-align:center;position:absolute;top:200rpx;left:50%;margin-left:-50rpx;}
+.shop .goods .title2{width:100%;color:#3c3c3c;font-size: 30rpx;position:absolute;top:270rpx;left:0;z-index: 99;text-align: center}
+.shop .goods .title3{width:40%;background:#393939;color:#fff;font-size: 30rpx;position:absolute;top:320rpx;left:30%;z-index: 99;text-align: center;border-radius:5px;font-size: 24rpx;height:50rpx;line-height: 50rpx;}
+
+.orderlist{padding:20rpx 0 80rpx}
+.orderli{height:240rpx;background: #fff;color:#4a4a4a;margin-top: 40rpx;}
+.orderlitop{width:95%;margin:0 auto;height:140rpx;border-bottom:1px solid #f1f1f1}
+.orderlileft{width:80%;height:140rpx;float:left;font-size:30rpx;text-align: left;}
+.orderliright{width:20%;height:140rpx;float:right;font-size:30rpx;text-align: right;line-height:140rpx;}
+.orderlitit1{margin-top:35rpx}
+.orderlitit2{font-size:24rpx;margin-top: 5rpx}
+.orderlibottom{width:95%;margin:0 auto;height:100rpx;font-size:24rpx;line-height: 100rpx;text-align: right}
+.paybtn{float:right;width:150rpx;height:50rpx;background: #393939;font-size:24rpx;color:#fff;line-height: 50rpx;text-align: center;margin-top:25rpx;border-radius:5px;}

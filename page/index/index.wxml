@@ -1,0 +1,73 @@
+<!--上-->
+<view class="detailtop">
+  <view class="detailtoppic">
+    <navigator url="../index/shop">
+      <image src="/imgs/index/good.jpg"></image>
+    </navigator>
+  </view>
+  <view class="detailtoptit">DQ(上海七宝嘉茂店)
+  </view>
+  <view class="indextop">
+    <view class="indextopSpan">
+      满
+    </view>
+    2017年2月10日前店内商品满50立减10元
+  </view>
+</view>
+
+<!--中-->
+<view class="indexbom-tit">商品分类</view>
+<view class="indexbom">
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_03.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_06.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_11.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_14.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_11.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_14.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_11.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_14.jpg"></image>
+    </navigator>
+  </view>
+
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_11.jpg"></image>
+    </navigator>
+  </view>
+  <view class="indexbomli">
+    <navigator url="../good/good">
+      <image src="/imgs/index/fl_14.jpg"></image>
+    </navigator>
+  </view>
+  <view class="clear"></view>
+</view>

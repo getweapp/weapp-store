@@ -1,0 +1,52 @@
+
+<!--上-->
+<view class="detailtop">
+  <view class="detailtoppic">
+    <image src="/imgs/index/good.jpg"></image>
+  </view>
+  <view class="detailtoptit">DQ(上海七宝嘉茂店)
+  </view>
+</view>
+
+<!--中-->
+<view class="detailmid">
+  <view class="detailmidli0">
+    <image src="/imgs/shop/shoppic_03.png" class="detailmidpic0"></image>
+    上海市闵行区七宝路888号
+  </view>
+  <view class="detailmidli0">
+    <image src="/imgs/shop/shoppic_05.png" class="detailmidpic0"></image>
+    上海市闵行区七宝路888号
+  </view>
+  <view class="detailmidli0">
+    <image src="/imgs/shop/shoppic_08.png" class="detailmidpic0"></image>
+    关于主题，或许“小”本来就是一个极其柔软的汉字，小笨蛋，小傻瓜，小妖精，本来是骂人的话语却可以变成甜蜜称呼。似乎用“小”开头，曲风大都会走清爽自然，似乎用“小”开头曲风大都会走清爽自然。
+  </view>
+</view>
+
+<!--下-->
+<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex">
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+  <view style="width: 250rpx; height: 200rpx; display: inline-block;text-align:center">
+    <image src="/imgs/shop/pic_03.png" style="width: 220rpx; height: 170rpx;"></image>
+  </view>
+</scroll-view>
+
+

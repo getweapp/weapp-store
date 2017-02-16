@@ -1,0 +1,44 @@
+{
+	"debug": true,
+	"pages": [
+		"page/index/index",
+		"page/index/shop",
+		"page/order/order",
+		"page/detail/detail",
+		"page/pay/pay",
+		"page/pay/wechatpay",
+		"page/good/good"
+	],
+	"window": {
+		"navigationBarBackgroundColor": "#3c3c40",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#efefef",
+		"backgroundTextStyle": "dark",
+		"navigationBarTitleText": "DQ(上海七宝嘉茂店)"
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"connectSocket": 10000,
+		"uploadFile": 10000,
+		"downloadFile": 10000
+	},
+	"tabBar": {
+		"backgroundColor": "#202020",
+		"color": "#fff",
+		"list": [
+			{
+				"selectedIconPath": "imgs/icon_03.png",
+				"iconPath": "imgs/icon_03.png",
+				"pagePath": "page/index/index",
+				"text": "首页"
+			},
+			{
+				"selectedIconPath": "imgs/icon_07.png",
+				"iconPath": "imgs/icon_07.png",
+				"pagePath": "page/order/order",
+				"text": "订单"
+			}
+		]
+	},
+	"debug": true
+}
